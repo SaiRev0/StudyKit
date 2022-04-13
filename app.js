@@ -9,7 +9,6 @@ const catchAsync = require('./utils/catchAsync');
 const ejsMate = require('ejs-mate');
 const ExpressError = require('./utils/ExpressError');
 const session = require('express-session');
-const methodOverride = require('method-override');
 const MongoDBStore = require('connect-mongo')(session);
 const dbUrl = process.env.DB_URL
 const res = require('express/lib/response');
