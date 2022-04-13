@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Title Icon -->
+  <link rel="shortcut icon" type="image/png" href="imgs/flashcard-icon.png" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/stylesheets/fc_style.css">
+
+  <title>Flashcards</title>
+</head>
+<body>
+
+  <main>
+    <header>
+      <div class="container">
+        <div id="header">
+          <h1><a href="/">HOME</a></h1>
+          <h1>FlashCard</h1>
+          <div>
+            <button id="show_card_box"><b>New Card</b></button>
+            <button id="delete_cards"><b>Delete All Cards</b></button>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+    <section>
+      <div class="container">
+        <div id="create_card">
+          <h2>Create Flashcard</h2>
+          <label for="question">Question</label>
+          <textarea id="question" maxlength="280"></textarea>
+          <label for="answer">Answer</label>
+          <br>
+          <textarea id="answer" maxlength="280"></textarea>
+          <div>
+            <button id="save_card">Save</button>
+            <button id="close_card_box">Close</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div id="flashcards"></div>
+      </div>
+    </section>
+
+  </main>
+  
+  <!-- Custom JS -->
+  <script src="/javascripts/fc_script.js"></script>
+</body>
+</html>
