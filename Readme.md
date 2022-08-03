@@ -1,7 +1,7 @@
 # StudyKit
 
-* This is our website made with HTML, CSS, JS { Using NodeJs and Express in a monngo Database }
-* Currently this website is being hosted on heroku in the name of [StudyKitsk](https://studykitsk.herokuapp.com/)
+* This is our website made with HTML, CSS, JS { Using NodeJs and Express in a mongo Database }
+* Currently this website is being hosted on heroku by the name [StudyKitsk](https://studykitsk.herokuapp.com/)
 
 ## How To set on your local machine
 
